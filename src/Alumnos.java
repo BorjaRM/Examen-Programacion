@@ -52,23 +52,5 @@ public class Alumnos {
 
 	public static void sumaAlumnos(int alumnosXLista, Alumnos alumnos){
 	alumnos.totalAlumnos=alumnos.totalAlumnos+alumnosXLista;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }
