@@ -12,9 +12,8 @@ public class Calendario {
 	int posInicial;
 
 	public static void main(String[] args) {
-		Calendario calendario = new Calendario();		
-		Calendario calendario2 = new Calendario();		
-
+		Calendario calendario = new Calendario();
+		
 		//Introducir mes y dia:
 			calendario.mesElegido=introduceDatos("Elige un mes");
 			calendario.diaElegido=introduceDatos("Elige un dia de la semana");
