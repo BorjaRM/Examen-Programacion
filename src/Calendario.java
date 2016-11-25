@@ -13,7 +13,8 @@ public class Calendario {
 
 	public static void main(String[] args) {
 		Calendario calendario = new Calendario();		
-		
+		Calendario calendario2 = new Calendario();		
+
 		//Introducir mes y dia:
 			calendario.mesElegido=introduceDatos("Elige un mes");
 			calendario.diaElegido=introduceDatos("Elige un dia de la semana");
@@ -21,14 +22,12 @@ public class Calendario {
 		//divide los meses en 3 grupos en funcion de su posicion en el String para calcular los dias:
 			calendario.grupoMes=contador(calendario.meses,calendario.mesElegido); 		
 			calendario.nDias=calculaDias(calendario.grupoMes);
-			//System.out.println(calendario.nDias);
 
 		//calcula posicion inicial del calendario en funcion del dia elegido:
 			calendario.posInicial=contador(calendario.dias,calendario.diaElegido);
-			//System.out.println(calendario.posInicial);
 			
 			generaCalendario(calendario);
-
+			
 	}
 	public static String introduceDatos(String msj){
 		System.out.println(msj);
